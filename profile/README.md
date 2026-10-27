@@ -69,6 +69,19 @@ Mentify is organized as independently maintainable services. The frontend commun
 
 This architecture keeps authentication, learning, communication, analytics, and AI capabilities separated into clear domains while allowing them to work together as one platform.
 
+## ☁️ Deployment
+
+The Mentify backend is deployed on **AWS EC2** as a Dockerized microservices platform. Docker Compose coordinates the application services and supporting infrastructure on the host, while GitHub Actions automates the build, image publishing, and deployment workflow.
+
+The deployment stack includes:
+
+- Spring Boot backend services running in Docker containers
+- Docker Compose orchestration on the EC2 host
+- PostgreSQL, Redis, and Apache Kafka supporting the platform
+- Amazon S3 for durable application file storage
+- Caddy for reverse-proxy and HTTP entry-point management
+- GitHub Actions for continuous integration and deployment
+
 ## Our focus
 
 We are building technology that supports:
