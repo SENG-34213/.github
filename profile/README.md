@@ -69,6 +69,16 @@ Mentify is organized as independently maintainable services. The frontend commun
 
 This architecture keeps authentication, learning, communication, analytics, and AI capabilities separated into clear domains while allowing them to work together as one platform.
 
+## 🌐 Portal access
+
+The deployed Mentify portals are available here:
+
+- **[Admin Portal](http://13.201.248.101/admin)**
+- **[Teacher Portal](http://13.201.248.101/teacher)**
+- **[Student Portal](http://13.201.248.101/student)**
+
+Demo credentials are intentionally not stored in this public repository. Request current test credentials from the project maintainers through a private channel, and never commit passwords, API keys, or other secrets to GitHub.
+
 ## Our focus
 
 We are building technology that supports:
