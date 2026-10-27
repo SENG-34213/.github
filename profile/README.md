@@ -4,137 +4,92 @@
 
 ### Learn better. Build smarter. Grow together.
 
-An AI-enabled Learning Management System built to make education more connected, accessible, and intelligent.
+An AI-enabled Learning Management System for connected, accessible, and intelligent education.
 
-<p>
-  <a href="https://github.com/SENG-34213/Mentify-backend"><img src="https://img.shields.io/badge/Backend-Spring%20Boot-6DB33F?logo=springboot&logoColor=white" alt="Backend"></a>
-  <a href="https://github.com/SENG-34213/frontend"><img src="https://img.shields.io/badge/Frontend-Next.js-000000?logo=next.js&logoColor=white" alt="Frontend"></a>
-  <a href="https://github.com/SENG-34213/infra"><img src="https://img.shields.io/badge/Infrastructure-AWS-FF9900?logo=amazonaws&logoColor=white" alt="Infrastructure"></a>
-  <a href="https://github.com/SENG-34213/tests"><img src="https://img.shields.io/badge/Quality-Tested-22C55E?logo=githubactions&logoColor=white" alt="Quality"></a>
-</p>
+[![Backend](https://img.shields.io/badge/Backend-Spring%20Boot-6DB33F?logo=springboot&logoColor=white)](https://github.com/SENG-34213/Mentify-backend)
+[![Frontend](https://img.shields.io/badge/Frontend-Next.js-000000?logo=next.js&logoColor=white)](https://github.com/SENG-34213/frontend)
+[![Infrastructure](https://img.shields.io/badge/Infrastructure-AWS-FF9900?logo=amazonaws&logoColor=white)](https://github.com/SENG-34213/infra)
+[![Testing](https://img.shields.io/badge/Testing-Automated-22C55E?logo=githubactions&logoColor=white)](https://github.com/SENG-34213/tests)
 
-<p>
-  <a href="#-about-mentify">About</a> ·
-  <a href="#-the-platform">Platform</a> ·
-  <a href="#-repositories">Repositories</a> ·
-  <a href="#-get-involved">Get involved</a>
-</p>
+**[Explore the repositories →](https://github.com/SENG-34213?tab=repositories)**
 
 </div>
 
-<br>
+## About Mentify
 
-## ✨ About Mentify
+Mentify brings students, teachers, and administrators together in one connected learning experience. The platform combines core education workflows with practical AI assistance and meaningful academic insights.
 
-Mentify brings students, teachers, and administrators together in one connected learning experience. It combines the everyday tools of education with thoughtful AI assistance and meaningful academic insights.
+## What the platform offers
 
-## 🚀 The platform
+- Course discovery and video-based learning
+- Role-based dashboards for students, teachers, and administrators
+- Assignments, quizzes, examinations, and grading
+- Attendance and academic progress tracking
+- Real-time communication and notifications
+- Calendar and learning activity management
+- AI-powered chat, quiz generation, and grading assistance
+- Analytics to support better academic decisions
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
+## Repositories
 
-### 📚 Learning
-
-Course discovery, video learning, assignments, quizzes, examinations, grading, and progress tracking.
-
-    </td>
-    <td width="50%" valign="top">
-
-### 🤖 Intelligence
-
-AI chat, quiz generation, AI-assisted grading, and analytics that help turn learning data into useful insight.
-
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-
-### 💬 Connection
-
-Real-time communication, notifications, calendar workflows, and collaboration between members of the learning community.
-
-    </td>
-    <td width="50%" valign="top">
-
-### 🔐 Trust
-
-Role-based access, secure authentication, tested services, and infrastructure designed for dependable delivery.
-
-    </td>
-  </tr>
-</table>
-
-## 🧩 Repositories
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-
-### [⚙️ Mentify-backend](https://github.com/SENG-34213/Mentify-backend)
+### [Mentify-backend](https://github.com/SENG-34213/Mentify-backend)
 
 Spring Boot microservices for authentication, learning services, communication, analytics, event processing, and AI capabilities.
 
-    </td>
-    <td width="50%" valign="top">
+### [frontend](https://github.com/SENG-34213/frontend)
 
-### [🖥️ frontend](https://github.com/SENG-34213/frontend)
+Next.js web application with role-based dashboards, course learning, real-time chat, AI assistance, and accessible user experiences.
 
-Next.js application with role-based dashboards, course learning, real-time chat, AI assistance, and accessible user experiences.
+### [infra](https://github.com/SENG-34213/infra)
 
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
+Infrastructure as Code for AWS deployment, Docker Compose, Kubernetes, networking, databases, messaging, storage, and content delivery.
 
-### [☁️ infra](https://github.com/SENG-34213/infra)
+### [tests](https://github.com/SENG-34213/tests)
 
-Infrastructure as Code for AWS deployment, Docker Compose, Kubernetes, networking, databases, messaging, storage, and delivery.
+Unit, integration, end-to-end, and performance test suites that help keep the Mentify platform reliable.
 
-    </td>
-    <td width="50%" valign="top">
+### [documents](https://github.com/SENG-34213/documents)
 
-### [🧪 tests](https://github.com/SENG-34213/tests)
+Central project documentation containing requirements, architecture, API contracts, design decisions, and user guides.
 
-Unit, integration, end-to-end, and performance tests that help keep the platform reliable.
+## Technology
 
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
+Mentify uses a modern, service-oriented technology stack:
 
-### [📖 documents](https://github.com/SENG-34213/documents)
+- **Backend:** Java 17, Spring Boot, Spring Cloud, Apache Kafka, Redis
+- **Frontend:** Next.js and TypeScript
+- **Data:** PostgreSQL and MongoDB
+- **Infrastructure:** Docker, Kubernetes, and AWS
+- **Delivery:** GitHub Actions and automated testing
+- **AI:** OpenAI-powered learning and productivity features
 
-Central project documentation including requirements, architecture, API contracts, design decisions, and user guides.
+## Architecture
 
-    </td>
-  </tr>
-</table>
+Mentify is organized as independently maintainable services. The frontend communicates with the backend through secure APIs, while backend services collaborate through service calls and asynchronous Kafka events.
 
-## 🛠️ Technology
+This architecture keeps authentication, learning, communication, analytics, and AI capabilities separated into clear domains while allowing them to work together as one platform.
 
-<p>
-  <img src="https://img.shields.io/badge/Java%2017-ED8B00?logo=openjdk&logoColor=white" alt="Java 17">
-  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?logo=springboot&logoColor=white" alt="Spring Boot">
-  <img src="https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white" alt="Next.js">
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white" alt="PostgreSQL">
-  <img src="https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white" alt="MongoDB">
-  <img src="https://img.shields.io/badge/Apache%20Kafka-231F20?logo=apachekafka&logoColor=white" alt="Apache Kafka">
-  <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/AWS-FF9900?logo=amazonaws&logoColor=white" alt="AWS">
-</p>
+## Our focus
 
-## 🌱 Get involved
+We are building technology that supports:
 
-We welcome thoughtful improvements, bug reports, documentation updates, and ideas that help make Mentify better. Before starting substantial work, please open an issue or discuss the proposal with the project maintainers.
+- Better learning outcomes
+- Accessible and inclusive education
+- Useful and responsible AI assistance
+- Secure handling of user and academic data
+- Maintainable, testable software
+- A smooth experience for every role in the learning community
 
-When contributing, include relevant tests, explain the change clearly, and follow the conventions of the repository you are updating.
+## Contributing
+
+We welcome bug reports, documentation updates, thoughtful improvements, and ideas that help make Mentify better.
+
+Before starting substantial work, please open an issue or discuss the proposal with the project maintainers. When contributing, include relevant tests, explain the change clearly, and follow the conventions of the repository you are updating.
 
 <div align="center">
 
-### Made with curiosity, collaboration, and a passion for better learning.
+### Built with curiosity, collaboration, and a passion for better learning.
 
-<a href="https://github.com/SENG-34213">Explore the SENG 34213 organization →</a>
+**[Visit SENG 34213 on GitHub →](https://github.com/SENG-34213)**
 
 </div>
